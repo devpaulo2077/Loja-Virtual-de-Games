@@ -1,0 +1,29 @@
+:root{
+    --color-white: #fff;
+    --color-dark1: #272727; 
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-white);
+    background-image: url(../img/Background-web.png);
+
+}
+
+.img_logo_header{
+    width: 80px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    height: 56px;
+    /* justify-content: space-between; */
+    padding: 0 10%;
+}
