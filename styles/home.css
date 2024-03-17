@@ -61,6 +61,7 @@ img {
     position: relative;
     width: 35vw;
     height: 30px;
+    padding: 1rem;
     border-radius: 12px;
 }
 
