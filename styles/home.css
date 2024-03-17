@@ -87,3 +87,40 @@ img {
     border: none;
     cursor: pointer;
 }
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+
+}
+
+.section-slader{
+    display: flex;
+    gap: 10%;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel{
+    box-decoration-break: 2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+}
+
+.container-carrosel{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translate(0);
+}
+
+main img{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
