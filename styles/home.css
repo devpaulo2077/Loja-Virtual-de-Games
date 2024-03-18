@@ -98,7 +98,14 @@ main{
 }
 
 .section-slader{
+    /* display: flex;
+    gap: 10%;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center; */
     display: flex;
+    flex-direction: column;
     gap: 10%;
     width: 100vw;
     height: 80vh;
@@ -124,3 +131,8 @@ main img{
     height: 500px;
     width: 500px;
 }
+
+.invisible{
+    display: none;
+}
+
