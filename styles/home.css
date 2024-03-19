@@ -100,7 +100,7 @@ img {
 
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 3%;
@@ -118,7 +118,7 @@ main{
     flex-direction: column;
     gap: 10%;
     width: 100vw;
-    height: 80vh;
+    height: 40vh;
     justify-content: center;
     align-items: center;
 }
@@ -134,15 +134,21 @@ main{
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translate(0);
+    gap: 50vw;
 }
 
 main img{
     object-fit: cover;
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
 }
 
 .invisible{
     display: none;
+}
+
+#slader-button {
+    display: flex;
+    gap: 20px;
 }
 
