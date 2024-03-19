@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../styles/home.css">
     <link rel="shortcut icon" href="../img/favicon.ico">
-    <script src="../event/home.js" defer></script>
     <script src="../event/home2.js" defer></script>
+    <!-- <script src="../event/nav.js" defer></script> -->
 </head>
 
 <body>
@@ -18,8 +18,18 @@
             <div class="logoItem">
                 <img src="../img/Logo.png" class="img_logo_header" alt="Logo Cosmic Dragons">
             </div>
-            <ul>
-                <li>Opções <i class="bi bi-chevron-down"></i></li>
+            <ul class="list-op">
+                <div>
+                    <ul id="open-list-options" class="dropdown">
+                        <li id="list-nav-op">Opções<i class="bi bi-chevron-down"></i>
+                        <div>
+                            <li>Comunidades</li>
+                            <li>Gift Cards</li>
+                            <li>Loja virtual</li>
+                        </div>
+                    </ul>
+                </div>
+                </li>
                 <li>Filtros <i class="bi bi-chevron-down"></i></li>
                 <li>Categorias <i class="bi bi-chevron-down"></i></li>
             </ul>
@@ -53,7 +63,7 @@
                 <img src="https://image.api.playstation.com/vulcan/ap/rnd/202209/0617/eiXonwxcJH00bkGo3G6lUm9t.png" alt="">
                 </div>
             </div> -->
-            <div id="slader-img">
+            <div id="'slader-img'">
                 <img class="" id="display-img1" src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/09/198214.jpg" alt="">
                 <img class="invisible" id="display-img2" src="https://cdn1.epicgames.com/offer/fda0f2b4047f46ffb4e94d5595c1468e/EGS_MortalKombat1_NetherRealmStudios_S3_2560x1440-bea2296b499ceecfc1dc1a91ab0d9a36" alt="">
                 <img class="invisible" id="display-img3" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000964/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f" alt="">
@@ -61,13 +71,58 @@
                 <img class="invisible" id="display-img5" src="https://image.api.playstation.com/vulcan/ap/rnd/202209/0617/eiXonwxcJH00bkGo3G6lUm9t.png" alt="">
             </div>
             <div id="slader-button">
+                <i class="bi bi-chevron-left"></i>
                 <input type="radio" name="slader-box-button" id="img1" checked>
                 <input type="radio" name="slader-box-button" id="img2">
                 <input type="radio" name="slader-box-button" id="img3">
                 <input type="radio" name="slader-box-button" id="img4">
                 <input type="radio" name="slader-box-button" id="img5">
-            </div>
-        </section>
-    </main>
+                <i class="bi bi-chevron-right"></i>
+            </section>
+                
+            <section class="container-carrosel">
+
+                
+                <!-- carrosel 2 -->
+                <div class="carrosel2">
+                    
+                    <div id="'slider-img'">
+                        <img class="" id="display-img1" src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/09/198214.jpg" alt="">
+                        <img class="invisible" id="display-img2" src="https://cdn1.epicgames.com/offer/fda0f2b4047f46ffb4e94d5595c1468e/EGS_MortalKombat1_NetherRealmStudios_S3_2560x1440-bea2296b499ceecfc1dc1a91ab0d9a36" alt="">
+                        <img class="invisible" id="display-img3" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000964/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f" alt="">
+                        <img class="invisible" id="display-img4" src="https://cdn1.epicgames.com/salesEvent/salesEvent/amoguslandscape_2560x1440-3fac17e8bb45d81ec9b2c24655758075" alt="">
+                        <img class="invisible" id="display-img5" src="https://image.api.playstation.com/vulcan/ap/rnd/202209/0617/eiXonwxcJH00bkGo3G6lUm9t.png" alt="">
+                    </div>
+                    <div id="slider-button">
+                        <i class="bi bi-chevron-left"></i>
+                        <input type="radio" name="slader-box-button" id="img1" checked>
+                        <input type="radio" name="slader-box-button" id="img2">
+                        <input type="radio" name="slader-box-button" id="img3">
+                        <input type="radio" name="slader-box-button" id="img4">
+                        <input type="radio" name="slader-box-button" id="img5">
+                        <i class="b1 bi-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="carrosel3">
+                    
+                    <div id="'slider-img'">
+                        <img class="" id="display-img1" src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/09/198214.jpg" alt="">
+                        <img class="invisible" id="display-img2" src="https://cdn1.epicgames.com/offer/fda0f2b4047f46ffb4e94d5595c1468e/EGS_MortalKombat1_NetherRealmStudios_S3_2560x1440-bea2296b499ceecfc1dc1a91ab0d9a36" alt="">
+                        <img class="invisible" id="display-img3" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000964/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f" alt="">
+                        <img class="invisible" id="display-img4" src="https://cdn1.epicgames.com/salesEvent/salesEvent/amoguslandscape_2560x1440-3fac17e8bb45d81ec9b2c24655758075" alt="">
+                        <img class="invisible" id="display-img5" src="https://image.api.playstation.com/vulcan/ap/rnd/202209/0617/eiXonwxcJH00bkGo3G6lUm9t.png" alt="">
+                    </div>
+                    <div id="slider-button">
+                        <i class="bi bi-chevron-left"></i>
+                        <input type="radio" name="slader-box-button" id="img1" checked>
+                        <input type="radio" name="slader-box-button" id="img2">
+                        <input type="radio" name="slader-box-button" id="img3">
+                        <input type="radio" name="slader-box-button" id="img4">
+                        <input type="radio" name="slader-box-button" id="img5">
+                        <i class="bi bi-chevron-right"></i>
+                    </div>
+                </div>
+            </section>
+            </main>
 </body>
 </html>
