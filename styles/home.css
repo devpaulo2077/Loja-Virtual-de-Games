@@ -45,6 +45,16 @@ nav ul{
     flex-direction: row;
 }
 
+.list-op{
+    display: flex;
+}
+
+.dropdown{
+    display: block;
+    background-color: red;
+}
+
+
 img {
     height: 50px;
 }
