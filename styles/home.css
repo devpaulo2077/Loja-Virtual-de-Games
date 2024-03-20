@@ -152,3 +152,8 @@ main img{
     gap: 20px;
 }
 
+#slider-button {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
