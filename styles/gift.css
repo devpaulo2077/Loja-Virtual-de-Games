@@ -1,0 +1,138 @@
+:root{
+    --color-white: #fff;
+    --color-dark1: #272727; 
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-white);
+    background-image: url(../img/Background-web.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    background-color: var(--color-white);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-dark1);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    flex-direction: row;
+}
+
+.list-op{
+    display: flex;
+}
+
+.dropdown{
+    display: block;
+    background-color: red;
+}
+
+
+img {
+    height: 50px;
+}
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    position: relative;
+    
+}
+
+.pesquisa input {
+    position: relative;
+    width: 35vw;
+    height: 30px;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.pesquisa i {
+    position: absolute;
+    margin-right: 10px;
+}
+
+.person_info {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.picture {
+    font-size: 2.5em;
+}
+
+.button {
+    font-size: 1.5em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+
+}
+
+.product-card__cover .product-img img {
+    position: absolute;
+    border-radius: 5px 5px 0 0;
+}
+.product-card .product-img img {
+    width: 100%;
+    height: auto;
+}
+.product-img img {
+    display: block;
+}
+img {
+    max-width: 100%;
+}
+
+#img_gift {
+    display: flex;
+    width: 1000%;
+    height: 50%;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.product-img {
+        background-color: #58595c;
+        width: 300px;
+        height: 300px;
+        margin-left: 50px;
+    }
