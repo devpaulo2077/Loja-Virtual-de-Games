@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100..800&display=swap');
 :root{
     --color-white: #fff;
     --color-dark1: #272727; 
@@ -13,7 +15,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color-white);
-    background-image: url(../img/Background-web.png);
+    background-image: url(../img/Backgound-login.png);
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -44,16 +46,6 @@ nav ul{
     list-style: none;
     flex-direction: row;
 }
-
-.list-op{
-    display: flex;
-}
-
-.dropdown{
-    display: block;
-    background-color: red;
-}
-
 
 img {
     height: 50px;
@@ -98,88 +90,35 @@ img {
     cursor: pointer;
 }
 
-main{
+/* ------------------------------- */
+.content-first{
+    margin: 2vh 10vw;
+}
+
+main h1{
+    font-family: "Anek Kannada", sans-serif;
+    color: white;
+    margin: 2vh 40vw;
+    font-size: 4rem;
+}
+
+section{
     display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.image-commu-first{
+    width: 900px;
+    height: 600px;
+    margin-right: -5vw;
+    border-radius: 15px;
+    border: 3px solid white;    
+}
+
+.content-second{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3%;
-
-}
-
-.section-slader{
-    /* display: flex;
-    gap: 10%;
-    width: 100vw;
-    height: 80vh;
-    justify-content: center;
-    align-items: center; */
-    display: flex;
-    flex-direction: column;
-    gap: 10%;
-    width: 100vw;
-    height: 40vh;
-    justify-content: center;
-    align-items: center;
-}
-
-.carrossel{
-    box-decoration-break: 2px 2px 4px black;
-    overflow: hidden;
-    height: 500px;
-    width: 500px;
-}
-
-.container-carrosel{
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translate(0);
-    gap: 50vw;
-}
-
-main img{
-    object-fit: cover;
-    height: 300px;
-    width: 300px;
-}
-
-.invisible{
-    display: none;
-}
-
-.visible{
-    display: block;
-}
-
-#slader-button {
-    display: flex;
-    gap: 20px;
-}
-
-#slider-button {
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.options-nav{
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    background-color: #fff;
-    padding: 0.5rem;
-    position: absolute;
-    left: 80px;
-    top: 50px;
-}
-
-.options-nav > button {
-    background-color: transparent;
-    border: 1px solid var(--color-dark1);
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-}
-
-.options-nav > button:hover{
-    background-color: #efefef;
 }
