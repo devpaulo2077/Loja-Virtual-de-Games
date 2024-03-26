@@ -16,6 +16,7 @@ body{
     background-image: url(../img/Background-web.png);
     height: 100vh;
     width: 100vw;
+
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -51,6 +52,11 @@ main{
     align-items: center;
     width: 100vw;
     margin: 15vh 10vw;
+    display: flex;
+    z-index: 0;
+    position: relative;
+    flex-direction: row;
+    gap: 5vw;
 }
 
 img {
@@ -121,15 +127,19 @@ img {
     margin-bottom: 10vh;
 /* } */
 
+.box-games{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 
+}
 
  .container-game{
     /* background-color: rgb(214, 214, 214); */
-    width: 1000px;
+    width: 50vw;
     height: 60vh;
-    position: absolute;
+    position: relative;
     z-index: 0;
-
 
  }
 
@@ -139,14 +149,37 @@ img {
     
  }
 
+.card-games{
+    background-color: #272727;
+    display: flex;
+    height: 90px;
+    width: 300px;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.card-games img{
+    height: 85px;
+    width: 120px;
+    border-radius: 15px;
+}
+.card-games p{
+    margin-left: 2vw;
+}
+
+.card-games:hover{
+    z-index: 1;
+    transform: scale(1.1);
+}
 .description-game{
     background-color: #494848;
-    width: 17vw;
-    height: 40vh;
-    position: fixed;
+    width: 280px;
+    height: 350px;
+    position: absolute;
     z-index: 1;
-    top: 350px;
-    left: 850px;
+    right: 20px;
+    margin-top: -55vh;
     border-radius: 2vw;
     font-family: sans-serif;
     font-size: 20px;
@@ -154,10 +187,10 @@ img {
     text-align: center;
 }
 
-.container-cod{
+/* .container-cod{
     background-color: rgb(161, 156, 156);
-    width: 55vh;
-    position: fixed;
+    width: 60vh;
+    position: absolute;
     left: 1250px;
     height: auto;
     display: flex;
@@ -236,9 +269,9 @@ img {
     font-size: 26px;
     margin-top: 7%;
     margin-left: 4%;
-    font-family:sans-serif ;
-}
-
+    font-family:sans-serif ; */
+/* } */
+/* 
 .container-under{
     background-color: rgb(161, 156, 156);
     display: flex;
@@ -265,7 +298,7 @@ img {
     margin-top: 6%;
     margin-left: 9%;
     font-family:sans-serif ;
-}
+} */
     
 
 
