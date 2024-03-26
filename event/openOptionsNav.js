@@ -3,6 +3,8 @@ const buttonOpenOptions = document.getElementById('list-nav-op')
 const buttonCloseOptions = document.getElementById('close-list')
 const fechar = document.querySelector(".options-nav")
 let ct = 0
+const navIcon = document.getElementById('nav-icon')
+
 
 
 buttonOpenOptions.addEventListener('click', ()=>{
@@ -22,12 +24,15 @@ buttonOpenOptions.addEventListener('click', ()=>{
 function openOptionsNav(){
     boxOptions.classList.remove('invisible')
     boxOptions.classList.add('options-nav')
-    
+    navIcon.classList.remove('bi-chevron-down')
+    navIcon.classList.add('bi-chevron-up')
 }
 
 function closeOptionsNav(){
-        boxOptions.classList.add('invisible')
-        boxOptions.classList.remove('options-nav')
+    boxOptions.classList.add('invisible')
+    boxOptions.classList.remove('options-nav')
+    navIcon.classList.remove('bi-chevron-up')
+    navIcon.classList.add('bi-chevron-down')
 }
 
 // function closeOptionsNav(){

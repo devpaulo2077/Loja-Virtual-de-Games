@@ -49,6 +49,10 @@ nav ul{
     display: flex;
 }
 
+.list-op li {
+    cursor: pointer;
+}
+
 .dropdown{
     display: block;
     background-color: red;
