@@ -7,10 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/header.css">
     <link rel="shortcut icon" href="../img/favicon.ico">
     <script src="../event/home2.js" defer></script>
-    <script src="../event/openOptionsNav.js" defer></script>
-    <!-- <script src="../event/nav.js" defer></script> -->
+    <script src="../event/headerOptions.js" defer></script>
 </head>
 
 <body>
@@ -23,15 +23,33 @@
                 <div id="box-options-nav">
                     <li id="list-nav-op">Opções<i id="nav-icon" class="bi bi-chevron-down"></i>
                     <div class="invisible" id="box-op">
-                        <button onclick="javascript:window.location.href='community.html'">Comunidades</button>
-                        <button onclick="javascript:window.location.href='gift.HTML'">Gift Cards</button>
-                        <button>Loja Virtual</button>
+                        <a href="./community.html"><button>Comunidades</button></a>
+                        <a href="./gift.HTML"><button>Gift Cards</button></a>
+                        <a href="./home.html"><button>Loja Virtual</button></a>
                     </div>
                 </div>
                 <div>
-                <li>Filtros <i id="nav-icon" class="bi bi-chevron-down"></i></li>
+                <li id="lista-nav-filter">Filtros <i id="nav-icon-filter" class="bi bi-chevron-down"></i></li>
+                <div class="invisible filter-nav" id="box-fil">
+                    <a href=""><button>Descontos</button></a>
+                    <a href=""><button>Lançamentos</button></a>
+                    <a href=""><button>Mais vendidos</button></a>
+                    <a href=""><button>Novidades</button></a>
                 </div>
-                <li>Categorias <i id="nav-icon" class="bi bi-chevron-down"></i></li>
+                </div>
+                <div>
+                <li id="lista-nav-category">Categorias <i id="nav-icon-category" class="bi bi-chevron-down"></i></li>
+                <div class="invisible" id="box-cat">
+                    <a href=""><button>Grátis para jogar</button></a>
+                    <a href=""><button>Acesso antecipado</button></a>
+                    <a href=""><button>Aventura</button></a>
+                    <a href=""><button>Ação</button></a>
+                    <a href=""><button>Casual</button></a>
+                    <a href=""><button>Corridas</button></a>
+                    <a href=""><button>Terror</button></a>
+                    <a href=""><button>Multiplayer</button></a>
+                </div>
+                </div>
             </ul>
             <div class="pesquisa">
             <input type="text" class="search" id="search">
