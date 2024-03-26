@@ -12,10 +12,19 @@
             <div class="logoItem">
                 <img src="../img/Logo.png" class="img_logo_header" alt="Logo Cosmic Dragons">
             </div>
-            <ul>
-                <li>Opções <i class="bi bi-chevron-down"></i></li>
-                <li>Filtros <i class="bi bi-chevron-down"></i></li>
-                <li>Categorias <i class="bi bi-chevron-down"></i></li>
+            <ul class="list-op">
+                <div id="box-options-nav">
+                    <li id="list-nav-op">Opções<i id="nav-icon" class="bi bi-chevron-down"></i>
+                    <div class="invisible" id="box-op">
+                        <button onclick="javascript:window.location.href='community.html'">Comunidades</button>
+                        <button onclick="javascript:window.location.href='gift.HTML'">Gift Cards</button>
+                        <button>Loja Virtual</button>
+                    </div>
+                </div>
+                <div>
+                <li>Filtros <i id="nav-icon" class="bi bi-chevron-down"></i></li>
+                </div>
+                <li>Categorias <i id="nav-icon" class="bi bi-chevron-down"></i></li>
             </ul>
             <div class="pesquisa">
             <input type="text" class="search" id="search">
@@ -37,28 +46,28 @@
                     </div>
                 </div>
             </section>
-
-            <section class="container-cod">
+            <section class="box-games">
+            <div class="card-games">
                 <img src="../img/logocallofduty.jpg" alt="Call of duty">
                 <p>Call Of Duty: Warzone </p>
-            </section>
+            </div>
 
-            <section class="container-reforger">
+            <div class="card-games">
                 <img src="../img/logoArmaReforger.PNG" alt="">
                 <p>Arma Reforger </p>
-            </section>
+            </div>
 
             
-            <section class="container-gta">
+            <div class="card-games">
                 <img src="../img/gtalogo.jpg" alt="">
                 <p>Grand Theft Auto V </p>
-            </section>
+            </div>
 
-            <section class="container-under">
+            <div class="card-games">
                 <img src="../img/logoundertale.jpg" alt="">
                 <p>Undertale</p>
+            </div>
             </section>
-
 
     </main>
 </body>
