@@ -20,7 +20,7 @@ body{
     background-size: cover;
 
 }
-
+/* 
 header {
     background-color: var(--color-white);
     height: 60px;
@@ -100,6 +100,10 @@ img {
     background-color: transparent;
     border: none;
     cursor: pointer;
+} */
+
+.img_logo_header{
+    height: 30px;
 }
 
 main{

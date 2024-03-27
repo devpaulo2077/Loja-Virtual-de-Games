@@ -16,86 +16,14 @@ body{
     background-image: url(../img/Background-web.png);
     height: 100vh;
     width: 100vw;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
+    overflow: hidden;
 
 }
 
-header {
-    background-color: var(--color-white);
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--color-dark1);
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-}
-
-nav ul{
-    display: flex;
-    gap: 50px;
-    list-style: none;
-    flex-direction: row;
-}
-
-.list-op{
-    display: flex;
-}
-
-.dropdown{
-    display: block;
-    background-color: red;
-}
-
-
-img {
-    height: 50px;
-}
-
-.pesquisa{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    position: relative;
-    
-}
-
-.pesquisa input {
-    position: relative;
-    width: 35vw;
-    height: 30px;
-    padding: 1rem;
-    border-radius: 12px;
-}
-
-.pesquisa i {
-    position: absolute;
-    margin-right: 10px;
-}
-
-.person_info {
-    width: 20vw;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.picture {
-    font-size: 2.5em;
-}
-
-.button {
-    font-size: 1.5em;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+.img_logo_header{
+    height: 33px;
 }
 
 main{
@@ -103,7 +31,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 3%;
+    
     color: black;
 
 }
@@ -127,12 +55,12 @@ main{
     align-items: center;
     width: calc(100% / 4 - 60px);
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     background-color: #efefef;
     transition: all 0.5s ease;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 .secao-card:hover {
@@ -160,8 +88,13 @@ main{
 
 /* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
+    body{
+        overflow-y: visible;
+    }
     .secao-card {
         width: 100%;
+        
+        
     }
     .comprar{
         width: 50vw;

@@ -23,74 +23,9 @@ body{
 
 }
 
-header {
-    background-color: var(--color-white);
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--color-dark1);
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-}
-
-nav ul{
-    display: flex;
-    gap: 50px;
-    list-style: none;
-    flex-direction: row;
-}
-
-img {
-    height: 50px;
-}
-
-.pesquisa{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    position: relative;
-    
-}
-
-.pesquisa input {
-    position: relative;
-    width: 35vw;
+.img_logo_header{
     height: 30px;
-    padding: 1rem;
-    border-radius: 12px;
 }
-
-.pesquisa i {
-    position: absolute;
-    margin-right: 10px;
-}
-
-.person_info {
-    width: 20vw;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.picture {
-    font-size: 2.5em;
-}
-
-.button {
-    font-size: 1.5em;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-/* ------------------------------- */
 
 main{
     display: flex;
@@ -98,12 +33,6 @@ main{
     align-items: center;
     justify-content: center;
 }
-
-.content-first{
-    
-}
-
-
 
 main h1{
     font-family: "Anek Kannada", sans-serif;
