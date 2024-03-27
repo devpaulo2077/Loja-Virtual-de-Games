@@ -172,6 +172,42 @@ img {
     opacity: 90%;
     text-align: center;
 }
+.name-principal-game{
+    display: none;
+}
+
+@media(max-width:800px){
+    body{
+        margin: 0;
+    }
+    .description-game{
+        display: none;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .img, .container, .container-game {
+        height: 170px;
+        margin-top: 8vh;
+    }
+    .img, .container, .container-game:hover{
+        cursor: pointer;
+        z-index: 1;
+        transform: scale(1.1);
+    }
+    .name-principal-game{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75px;
+        margin-bottom: -70px;
+    }
+}
 
 
 /* .container-cod{
