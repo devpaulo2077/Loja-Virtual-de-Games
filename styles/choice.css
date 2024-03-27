@@ -10,6 +10,12 @@
     text-decoration: none;
 }
 
+.btn{
+    color: rgb(84, 84, 228);
+    border-color: rgb(84, 84, 228);
+}
+
+
 body{
     font-family: sans-serif;
     background-image: url(../img/Backgound-login.png);
@@ -41,6 +47,10 @@ main{
 
 h1, p {
     color: var(--dark-primary);
+}
+
+.img_logo_header{
+    height: 30px;
 }
 
 button {

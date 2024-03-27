@@ -10,6 +10,12 @@
     text-decoration: none;
 }
 
+.btn{
+    color: rgb(84, 84, 228);
+    border-color: rgb(84, 84, 228);
+}
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color-white);
@@ -92,12 +98,25 @@ main{
         overflow-y: visible;
     }
     .secao-card {
-        width: 100%;
+        width: calc(100% / 2 - 60px);
         
         
     }
     .comprar{
-        width: 50vw;
+        width: 20vw;
+    }
+}
+@media (max-width: 560px) {
+    body{
+        overflow-y: visible;
+    }
+    .secao-card {
+        width: 50%;
+        
+        
+    }
+    .comprar{
+        width: 20vw;
     }
 }
 

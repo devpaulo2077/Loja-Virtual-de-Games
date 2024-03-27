@@ -27,6 +27,12 @@ body{
     height: 30px;
 }
 
+.btn{
+    color: rgb(84, 84, 228);
+    border-color: rgb(84, 84, 228);
+}
+
+
 main{
     display: flex;
     flex-direction: column;

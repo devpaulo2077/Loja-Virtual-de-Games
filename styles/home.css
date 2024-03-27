@@ -16,7 +16,7 @@ body{
     background-image: url(../img/Background-web.png);
     height: 100vh;
     width: 100vw;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
 
 }
@@ -101,6 +101,15 @@ img {
     border: none;
     cursor: pointer;
 } */
+
+.btn{
+    color: rgb(84, 84, 228);
+    border-color: rgb(84, 84, 228);
+}
+
+.btn:hover{
+    background-color: rgb(84, 84, 228);
+}
 
 .img_logo_header{
     height: 30px;

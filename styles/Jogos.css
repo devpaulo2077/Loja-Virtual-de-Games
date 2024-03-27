@@ -10,6 +10,12 @@
     text-decoration: none;
 }
 
+.btn{
+    color: rgb(84, 84, 228);
+    border-color: rgb(84, 84, 228);
+}
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color-white);
@@ -155,7 +161,7 @@ img {
 .description-game{
     background-color: #494848;
     width: 280px;
-    height: 350px;
+    height: 390px;
     position: absolute;
     z-index: 1;
     right: 20px;
@@ -166,6 +172,7 @@ img {
     opacity: 90%;
     text-align: center;
 }
+
 
 /* .container-cod{
     background-color: rgb(161, 156, 156);
