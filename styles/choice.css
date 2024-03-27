@@ -39,7 +39,7 @@ main{
     border-radius: 2rem;
 }
 
-h1, p {
+h1 {
     color: var(--dark-primary);
 }
 
@@ -56,4 +56,9 @@ button {
 
 button:hover{
     background-color: var(--dark-primary);
+}
+
+#back-button{
+    padding: 6px;
+    width: 80px;
 }
