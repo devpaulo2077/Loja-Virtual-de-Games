@@ -18,7 +18,7 @@ body{
     background-image: url(../img/Backgound-login.png);
     height: 100vh;
     width: 100vw;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
 
 }
@@ -149,7 +149,77 @@ section{
     justify-content: center;
     gap: 1rem;
     margin-left: 30px;
+    box-sizing: content-box;
 
     flex-direction: column;
     position: relative;
+}
+
+.menu{
+    display: none;
+}
+
+
+#botao-responsive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+
+@media (max-width:1130px){
+    #botao-responsive{
+        display: none;
+    }
+    .person_info{
+        display: none;
+    }
+    .menu{
+        padding: 2px;
+        background-color: rgb(178, 178, 178);
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        cursor: pointer;
+        margin-left: -3rem;
+    }
+    .menu:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        transition: 1.3s;
+
+    }
+  
+    .image-commu {
+        width: 50%;
+        height: 10%;
+    }
+
+    .image-commu-first{
+        
+        height: 150px;
+        width: 250px;
+       margin-bottom: 1rem;
+        
+    }
+    .image-commu-first:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+    .content-second,
+    .content-first,.image-community{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
