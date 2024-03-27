@@ -60,3 +60,66 @@ radioImg5.addEventListener('click', () => {
         imagem1.classList.add('invisible')
     }
 })
+
+const radioImg6 = document.getElementById('img6')
+const radioImg7 = document.getElementById('img7')
+const radioImg8 = document.getElementById('img8')
+const radioImg9 = document.getElementById('img9')
+const radioImg10 = document.getElementById('img10')
+
+const imagem6 = document.getElementById('display-img6')
+const imagem7 = document.getElementById('display-img7')
+const imagem8 = document.getElementById('display-img8')
+const imagem9 = document.getElementById('display-img9')
+const imagem10 = document.getElementById('display-img10')
+
+
+radioImg6.addEventListener('click', () => {
+    if (imagem6){
+        imagem6.classList.remove('invisible')
+        imagem7.classList.add('invisible')
+        imagem8.classList.add('invisible')
+        imagem9.classList.add('invisible')
+        imagem10.classList.add('invisible')
+    }
+})
+
+radioImg7.addEventListener('click', () => {
+    if (imagem7){
+        imagem7.classList.remove('invisible')
+        imagem6.classList.add('invisible')
+        imagem8.classList.add('invisible')
+        imagem9.classList.add('invisible')
+        imagem10.classList.add('invisible')
+    }
+})
+
+radioImg8.addEventListener('click', () => {
+    if (imagem8){
+        imagem8.classList.remove('invisible')
+        imagem7.classList.add('invisible')
+        imagem6.classList.add('invisible')
+        imagem9.classList.add('invisible')
+        imagem10.classList.add('invisible')
+    }
+})
+
+radioImg9.addEventListener('click', () => {
+    if (imagem9){
+        imagem9.classList.remove('invisible')
+        imagem7.classList.add('invisible')
+        imagem8.classList.add('invisible')
+        imagem6.classList.add('invisible')
+        imagem10.classList.add('invisible')
+    }
+})
+
+radioImg10.addEventListener('click', () => {
+    if (imagem10){
+        imagem10.classList.remove('invisible')
+        imagem7.classList.add('invisible')
+        imagem8.classList.add('invisible')
+        imagem9.classList.add('invisible')
+        imagem6.classList.add('invisible')
+    }
+})
